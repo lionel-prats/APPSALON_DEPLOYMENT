@@ -2,6 +2,7 @@ src/
 vendor/
 node_modules/
 appsalon_mvc.sql
+appsalon-lionel-prats_database.sql
 gulpfile.js
 package.json
 package-lock.json

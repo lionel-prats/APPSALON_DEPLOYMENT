@@ -23,7 +23,7 @@ class Email {
             <html>
                 <p>Hola <strong>$this->nombre!</strong></p>
                 <p>Has solicitado la creación de tu cuenta en AppSalon.</p> 
-                <p>Click <a href='http://localhost:3000/confirmar-cuenta?token=$this->token'>aquí</a> para confirmar tu cuenta.</p>
+                <p>Click <a href='https://appsalon-lionel-prats.alwaysdata.net/confirmar-cuenta?token=$this->token'>aquí</a> para confirmar tu cuenta.</p>
                 <small style=\"color: red;\">- Si tú no solicitaste la creación de esta cuenta, simplemente ignora este mensaje. -</small>
             </html>
         ";
@@ -66,7 +66,7 @@ class Email {
             <html>
                 <p>Hola <strong>$this->nombre!</strong></p>
                 <p>Has solicitado reestablecer tu contraseña.</p> 
-                <p>Haz click <a href='http://localhost:3000/recuperar?token=$this->token'>aquí</a> reestablecer tu contraseña.</p>
+                <p>Haz click <a href='https://appsalon-lionel-prats.alwaysdata.net/recuperar?token=$this->token'>aquí</a> reestablecer tu contraseña.</p>
                 <small style=\"color: red;\">- Si tú no solicitaste este cambio ignora este mensaje. -</small>
             </html>
         ";
