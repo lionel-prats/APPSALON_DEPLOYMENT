@@ -1,0 +1,1 @@
+function iniciarApp(){servicioCreado()}function servicioCreado(){const e=document.querySelector("#nombre");1==document.querySelector("#servicioCreado").value&&Swal.fire({icon:"success",title:""+e.value,text:"Servicio actualizado correctamente",button:"OK"}).then(()=>{window.location.href="/servicios"})}document.addEventListener("DOMContentLoaded",(function(){iniciarApp()}));
